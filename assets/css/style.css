@@ -1,0 +1,43 @@
+/*GENERAL STYLES*/
+body {
+
+}
+
+/*HEADER STYLES*/
+header {
+    width: 100%;
+    background-color: #fadada;
+}
+
+/*MAIN STYLES*/
+main {
+    width: 100%;
+    background-color: #8a8a8a;
+}
+
+/*FOOTER STYLES*/
+footer {
+    width: 100%;
+    background-color: #fadada;
+}
+
+/*MEDIA QUERIES*/
+/*Landscape Phones*/
+@media screen and (min-width: 576px) {
+
+}
+
+/*Tablets*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*Laptops*/
+@media screen and (min-width: 992px) {
+
+}
+
+/*Desktops*/
+@media screen and (min-width: 1200px) {
+
+}
