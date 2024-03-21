@@ -19,6 +19,27 @@ main {
 footer {
     width: 100%;
     background-color: #fadada;
+    
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer ul { 
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 300%;
+}
+
+footer i {
+    color: #4a4a4a;
 }
 
 /*MEDIA QUERIES*/
