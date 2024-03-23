@@ -144,9 +144,28 @@ main {
     cursor: pointer;
 }
 
+.lunch,
+.starters,
+.mains,
+.desserts {
+    background-color: rgba(218, 248, 250, 0.7);
+    border-radius: 20px;
+    color: #3a3a3a;
+    width: 80%;
+    min-height: 100px;
+    margin: 10px auto;
+    padding: 15px;
+
+    h2 {
+        text-decoration: underline;
+        margin-bottom: 5px;
+    }
+}
+
 .lunch-menu li,
 .dinner-menu li {
-    text-align: center;
+    list-style-type: none;
+    padding: 4px;
 }
 
 /**********FOOTER STYLES**********/
