@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
 }
 
-h1, h2{
+h1, h2, h3{
     /*making all header text uppercase*/
     text-transform: uppercase;
     text-align: center;
@@ -142,6 +142,11 @@ main {
     background-color: #ffffff;
     /*learned from inspecting existing css buttons online*/
     cursor: pointer;
+}
+
+.lunch-menu li,
+.dinner-menu li {
+    text-align: center;
 }
 
 /**********FOOTER STYLES**********/
