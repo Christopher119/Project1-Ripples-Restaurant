@@ -26,10 +26,8 @@ h1, h2{
 /**********HEADER STYLES**********/
 header {
     width: 100%;
-    background-color: #fadada;
-    text-align: center;
+    background-color: #daf8fa;
     display: flex;
-    justify-content: space-evenly;
     /*keeping header fixed to the top of the page*/
     position: fixed;
     top: 0;
@@ -58,7 +56,7 @@ header a {
 nav {
     /*Positioning the hidden nav box to appear beneath the header*/
     position: absolute;
-    background-color: #fadada;
+    background-color: #daf8fa;
     width: 100%;
     left: 0;
     padding: 10px;
@@ -78,8 +76,9 @@ nav {
 
 .nav-menu-label {
     /*styling size and position of the burger icon for the nav menu checkbox*/
-    font-size: 35px;
-    padding: 15px;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 80%;
 }
 
 nav ul{
@@ -95,35 +94,61 @@ nav li {
 /**********MAIN STYLES***********/
 main {
     /*pushing main content below the header*/
-    margin-top: 76px;
+    margin-top: 49px;
     /*using flex box properites to ensure main section grows to required space, doesn't shrink, and fills horizontal space*/
     display: flex;
     flex: 1, 0, auto;
     /*pushing each flex item below the next by using columns*/
     flex-direction: column;
+    background: url("../images/ripples-exterior-view.webp") no-repeat center center/cover;
 }
 
 .landing,
-.about-us {
+.about-us,
+.our-food {
     width: 100%;
     position: relative;
     margin: 10px 0;
 }
 
 .landing-text,
-.about-us-text {
-    background-color: #ecd2c7;
+.about-us-text,
+.our-food-text {
+    background-color: rgba(218, 248, 250, 0.7);
+    border-radius: 20px;
+    text-align: center;
+    color: #3a3a3a;
     width: 80%;
     min-height: 100px;
     margin: 0 auto;
     padding: 15px;
 }
 
+.booking-button,
+.our-food-button {
+    /*change height of button found here:
+    https://stackoverflow.com/questions/10976700/how-to-set-the-height-of-a-button-input-element-on-webkit-browsers*/
+    display: inline-block;
+    height: 40px;
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #b7d6d6;
+}
+
+.booking-button:hover,
+.our-food-button:hover {
+    background-color: #ffffff;
+    /*learned from inspecting existing css buttons online*/
+    cursor: pointer;
+}
+
 /**********FOOTER STYLES**********/
 footer {
     margin-top: auto;
     width: 100%;
-    background-color: #fadada;
+    background-color: #daf8fa;
 }
 
 footer p {
