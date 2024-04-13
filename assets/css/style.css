@@ -144,6 +144,7 @@ main {
     cursor: pointer;
 }
 
+/**LUNCH MENU STYLES**/
 .lunch,
 .starters,
 .mains,
@@ -166,6 +167,18 @@ main {
 .dinner-menu li {
     list-style-type: none;
     padding: 4px;
+}
+
+/**BOOKING STYLES**/
+#booking-form,
+.contact-details{
+    background-color: rgba(218, 248, 250, 0.7);
+    border-radius: 20px;
+    color: #3a3a3a;
+    width: 80%;
+    min-height: 100px;
+    margin: 10px auto;
+    padding: 15px;
 }
 
 /**********FOOTER STYLES**********/

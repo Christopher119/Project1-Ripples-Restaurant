@@ -35,7 +35,38 @@
 
     <!--MAIN CONTENT-->
     <main>
-        
+        <div>
+            <form id="booking-form">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required>
+                <br>
+                <label for="guestEmail">Your Email:</label>
+                <input type="email" id="guestEmail" name="guestEmail" required>
+                <br>
+                <label for="guestPhone">Your Phone Number:</label>
+                <input type="number" id="guestPhone" name="guestPhone" required>
+                <br>
+                <label for="noOfGuests">Number of Guests:</label>
+                <input type="number" id="noOfGuests" name="noOfGuests" required>
+                <br>
+                <label for="dateOfBooking">Date:</label>
+                <input type="datetime-local" id="dateOfBooking" name="dateOfBooking" min="2019-5-01" required>
+                <br>
+                <input type="submit" value="Make Booking">
+                <input type="reset" value="Clear Form">
+            </form>
+        </div>
+
+        <div class="contact-details">
+            <h3>Booking for an important occassion? Get in Touch!</h3>
+            <h4>Email:</h4>
+            <p>ripplesrestaurant@gmail.com</p>
+            <h4>Phone:</h4>
+            <p>(074) 915 0110</p>
+        </div>
     </main>
 
     <!--FOOTER CONTENT-->
