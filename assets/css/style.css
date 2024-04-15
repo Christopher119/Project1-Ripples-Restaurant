@@ -224,7 +224,12 @@ footer i {
 /**********MEDIA QUERIES**********/
 /*Landscape Phones*/
 @media screen and (min-width: 576px) {
-
+    /**BOOKING STYLES**/
+    #booking-form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
 /*Tablets*/
