@@ -70,7 +70,7 @@ nav {
 }
 
 #nav-menu-toggle {
-    /*hidinig the  nav menu when the nav checkbox is deselected*/
+    /*hiding the  nav menu when the nav checkbox is deselected*/
     display: none;
 }
 
@@ -122,9 +122,10 @@ main {
     min-height: 100px;
     margin: 0 auto;
     padding: 15px;
+    font-size: 1rem;
 }
 
-.booking-button,
+.booking-menu-button,
 .our-food-button {
     /*change height of button found here:
     https://stackoverflow.com/questions/10976700/how-to-set-the-height-of-a-button-input-element-on-webkit-browsers*/
@@ -137,7 +138,7 @@ main {
     background-color: #b7d6d6;
 }
 
-.booking-button:hover,
+.booking-menu-button:hover,
 .our-food-button:hover {
     background-color: #ffffff;
     /*learned from inspecting existing css buttons online*/
@@ -167,6 +168,9 @@ main {
 .dinner-menu li {
     list-style-type: none;
     padding: 4px;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 /**BOOKING STYLES**/
@@ -179,6 +183,7 @@ main {
     min-height: 100px;
     margin: 10px auto;
     padding: 15px;
+    font-size: 1rem;
 }
 
 .input-fields{
@@ -188,10 +193,17 @@ main {
 }
 
 .booking-buttons{
+    background-color: #b7d6d6;
     border-radius: 15px;
     padding: 10px;
     margin: 10px 0;
     font-size: 15px;
+}
+
+.booking-buttons:hover {
+    background-color: #ffffff;
+    /*learned from inspecting existing css buttons online*/
+    cursor: pointer;
 }
 
 /**********FOOTER STYLES**********/
@@ -234,12 +246,86 @@ footer i {
 
 /*Tablets*/
 @media screen and (min-width: 768px) {
+    main {
+        background: url("../images/ripples-interior-view.webp") no-repeat center center/cover;
+    }
+
+    .landing-text,
+    .about-us-text,
+    .our-food-text{
+        font-size: 1.25rem;
+        padding: 15px 45px;
+    }
+
+    .booking-menu-button,
+    .our-food-button {
+    height: 60px;
+    width: 30%;
+    margin: 15px;
+    padding: 5px;
+    font-size: 1rem;
+    }
+
+    .lunch-menu li,
+    .dinner-menu li {
+    list-style-type: none;
+    padding: 4px;
+    font-size: 1.25rem;
+    text-align: center;
+    }
+
+    #booking-form,
+    .contact-details{
+    font-size: 1.25rem;
+    }
+
+    .booking-buttons{
+        width: 30%;
+    }
 
 }
 
 /*Laptops*/
 @media screen and (min-width: 992px) {
+    nav {
+        /*Positioning and revealing the nav box on larger screens*/
+        position: absolute;
+        background-color: #daf8fa;
+        width: 100%;
+        left: 0;
+        top: 100%;
+        display: block;
+    }
 
+    .nav-menu-label{
+        /*Hiding burger menu on larger screens*/
+        display: none;
+    }
+
+    main {
+        /*pushing main content below the header*/
+        margin-top: 44px;
+    }
+
+    .landing-text,
+    .about-us-text,
+    .our-food-text,
+    .lunch,
+    .starters,
+    .mains,
+    .desserts,
+    #booking-form {
+        width: 30%;
+    }
+
+    .contact-details {
+        width: 25%;
+    }
+
+    .booking-menu-button,
+    .our-food-button {
+        width: 60%;
+    }
 }
 
 /*Desktops*/
