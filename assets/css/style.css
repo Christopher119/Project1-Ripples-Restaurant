@@ -146,6 +146,15 @@ main {
 }
 
 /**LUNCH MENU STYLES**/
+
+.lunch-menu,
+.dinner-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .lunch,
 .starters,
 .mains,
@@ -171,6 +180,15 @@ main {
     font-size: 1rem;
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+.lunch-menu img,
+.dinner-menu img {
+    height: 250px;
+    width: 250px;
+    border-style: double;
+    border-radius: 50%;
+    border-color: rgba(218, 248, 250, 0.7);
 }
 
 /**BOOKING STYLES**/
@@ -266,6 +284,7 @@ footer i {
     font-size: 1rem;
     }
 
+    
     .lunch-menu li,
     .dinner-menu li {
     list-style-type: none;
