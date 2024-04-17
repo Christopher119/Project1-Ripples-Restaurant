@@ -183,12 +183,15 @@ main {
 }
 
 .lunch-menu img,
-.dinner-menu img {
+.starters-image img,
+.mains-image img,
+.desserts-image img {
     height: 250px;
     width: 250px;
     border-style: double;
     border-radius: 50%;
     border-color: rgba(218, 248, 250, 0.7);
+    margin: 10px 5rem;
 }
 
 /**BOOKING STYLES**/
@@ -284,7 +287,42 @@ footer i {
     font-size: 1rem;
     }
 
-    
+    .lunch-menu,
+    .dinner-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .lunch,
+    .starters,
+    .mains,
+    .desserts {
+        width: 45%;
+    }
+
+    .starters {
+        order: 1;
+    }
+
+    .mains {
+        order: 2;
+    }
+
+    .desserts {
+        order: 5;
+    }
+
+    .mains-image {
+        order: 3;
+    }
+
+    .desserts-image {
+        order: 4;
+    }
+
     .lunch-menu li,
     .dinner-menu li {
     list-style-type: none;
@@ -334,7 +372,7 @@ footer i {
     .mains,
     .desserts,
     #booking-form {
-        width: 30%;
+        width: 45%;
     }
 
     .contact-details {
@@ -350,4 +388,30 @@ footer i {
 /*Desktops*/
 @media screen and (min-width: 1200px) {
 
+    .landing-text,
+    .about-us-text,
+    .our-food-text,
+    .lunch,
+    .starters,
+    .mains,
+    .desserts,
+    #booking-form {
+        width: 45%;
+    }
+
+    .lunch,
+    .starters,
+    .mains,
+    .desserts {
+        margin: 10px;
+    }
+
+    .lunch-menu img,
+    .starters-image img,
+    .mains-image img,
+    .desserts-image img {
+        height: 400px;
+        width: 400px;
+        margin: 10px 100px;
+    }
 }
