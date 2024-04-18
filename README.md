@@ -61,9 +61,8 @@ This website is for the Kerrykeel based restaurant called Ripple's Restaurant. C
 
 ## Features
 
-## Existing Features
-
-    Navigation Bar
+## Navigation Bar
+    The Nav Bar
         The navigation bar works as one would expect of any website. Positioned at the top of the page it allows users to quickly jump from each of the three pages, and clearly displays which page a user is currently on.
 
 ## Main Pages
@@ -120,12 +119,9 @@ Afterwards the site was tested for landscape phones, tablet screens, laptops, an
 
 ## Deployment
 
-The site has yet to be deployed to GitHub pages. Will deploy when above bugs have been fixed. The steps to deploy are as follows:
-        In the GitHub repository, navigate to the Settings tab
-        From the source section drop-down menu, select the Master Branch
-        Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The site has been deployed to GitHub pages.
 
-The live link can be found here - 
+The live link can be found here - https://christopher119.github.io/Project1-Ripples-Restaurant/
 
 ## Credits
 
