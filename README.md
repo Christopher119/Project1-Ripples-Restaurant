@@ -4,6 +4,35 @@
 
 This website is for the Kerrykeel based restaurant called Ripple's Restaurant. Currently they only operate a Facebook and Instagram page. This site is targeted towards the owner of the business as a means to better promote themselves and to potential customers looking to learn more about the restauarant, what food and services they have on offer (such as perusing their menu) and how to contact and book with them.
 
+## Strategy
+
+
+## Scope
+
+    Users
+        Users want to be able to find clear and concise information about the restaurant
+        Users want to be able to view a menu for the food available
+        Users want to be able to view prices
+        Users want to be able to book a reservation
+        Users want to be able to find and contact the restaurant for bigger occasions
+        Users want to be able to order food online
+
+    Owners
+        The owners will want to show the best their restaurant has to offer
+        The owners will want to advertise their appealing location and scenic views
+        The owners will want to show off the quality and presentation of their food
+        The owners will want to attract more users
+        The owners will want the promotion from good reviews
+
+## Structure
+
+
+## Skeleton
+
+
+## Surface
+
+
 ## Features
 
 ## Existing Features
