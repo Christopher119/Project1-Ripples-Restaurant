@@ -26,6 +26,32 @@ This website is for the Kerrykeel based restaurant called Ripple's Restaurant. C
 
 ## Structure
 
+    The structure to achieve the above scope should include at least 3 pages for simplicity's sake.
+    A home page, giving a brief overview of the restuarant.
+    A menu page for users to see what can be ordered.
+    A booking page for users to reserve tables or events.
+    Each page should be clear and concise.
+
+    Home page  
+        The home page should be a simple welcome page.
+        It should include a brief introduction about the restaurant and it's services.
+        It should include a blurb about the type of food on their menu.
+        It should allow for easy navigation to the other pages on the site.
+
+
+    Menu page
+        The menu page should be clean and have a simple flow of information.
+        Lunch menu options followed by Dinner menu split into the three main courses.
+        The menu page should have some pictures to showcase the food to draw in the users.
+
+    Booking page
+        The booking page should consist of a simple form with the relevant information for booking.
+        The form should include a Users name, contact info, time and date of reservation, and number of guests.
+        The page should include contact information for booking the restaurant more fully for bigger events.
+        The page should include an iframe map to show users the exact location of the restaurant.
+
+    Each page should have a nav bar allowing users to easily navigate between pages.
+    Each page should include a footer with the restaurant address and social media links.
 
 ## Skeleton
 
