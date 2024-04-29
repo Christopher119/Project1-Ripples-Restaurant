@@ -37,29 +37,37 @@
     <main>
         <div>
             <form id="booking-form" action="https://formdump.codeinstitute.net" method="POST" _blank>
+                <!--First Name label and input field-->
                 <label for="fname">First Name:</label>
                 <input type="text" id="fname" name="fname" required class="input-fields">
                 <br>
+                <!--Last Name label and input field-->
                 <label for="lname">Last Name:</label>
                 <input type="text" id="lname" name="lname" required class="input-fields">
                 <br>
+                <!--Email label and input field-->
                 <label for="guestEmail">Email:</label>
                 <input type="email" id="guestEmail" name="guestEmail" required class="input-fields">
                 <br>
+                <!--Phone Number label and input field-->
                 <label for="guestPhone">Phone Number:</label>
                 <input type="number" id="guestPhone" name="guestPhone" required class="input-fields">
                 <br>
+                <!--Number of Guests label and input field-->
                 <label for="noOfGuests">Number of Guests:</label>
                 <input type="number" id="noOfGuests" name="noOfGuests" required class="input-fields">
                 <br>
+                <!--Booking Date label and input field-->
                 <label for="dateOfBooking">Date:</label>
                 <input type="datetime-local" id="dateOfBooking" name="dateOfBooking" min="2019-5-01" required class="input-fields">
                 <br>
+                <!--Submit and Reset buttons-->
                 <input type="submit" value="Make Booking" class="booking-buttons">
                 <input type="reset" value="Clear Form" class="booking-buttons">
             </form>
         </div>
 
+        <!--Simple Contact Details below the form-->
         <div class="contact-details">
             <h3>Booking for an important occasion?<br>
                 Get in Touch!</h3>
@@ -71,6 +79,7 @@
             <p>(074) 915 0110</p>
         </div>
 
+        <!--I-Frame used for map location-->
         <div class="location-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9122.733998178544!2d-7.6769149!3d55.1363171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ff3d971beca7b%3A0xd33ce62cbcbdbe5!2sRipples%20Restaurant!5e0!3m2!1sen!2sie!4v1713018331374!5m2!1sen!2sie" height="300" width="100%"></iframe>
         </div>
