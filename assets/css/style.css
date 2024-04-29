@@ -10,6 +10,10 @@
 body {
     /*ensuring the site always takes up the max screen height of the device*/
     min-height: 100vh;
+    max-width: 100%;
+    /*Menu page had some horizontal scroll issues. Unable to figure out why. Found this fix on stack overflow*/
+    /*https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll*/
+    overflow-x: hidden;
 }
 
 h1, h2, h3{
