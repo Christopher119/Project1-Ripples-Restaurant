@@ -100,7 +100,7 @@ main {
     flex: 1, 0, auto;
     /*pushing each flex item below the next by using columns*/
     flex-direction: column;
-    background: url("../images/ripples-exterior-view.webp") no-repeat center center/cover;
+    background: url("../images/ripples-interior-view.webp") no-repeat center center/cover;
 }
 
 .landing,
