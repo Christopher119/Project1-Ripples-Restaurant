@@ -1,3 +1,7 @@
+/*FONTS*/
+/*Roboto font, sans serif, dyslexia friendly & Seaweed script -fancy title font for some flair*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap');
+
 /*WILDCARD STYLES*/
 * {
     /*Overwriting browser defaults*/
@@ -14,11 +18,19 @@ body {
     /*Menu page had some horizontal scroll issues. Unable to figure out why. Found this fix on stack overflow*/
     /*https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll*/
     overflow-x: hidden;
+    /*adding roboto font to all text content*/
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1, h2, h3{
-    /*making all header text uppercase*/
-    text-transform: uppercase;
+h1, h2{
+    /*making all text centered*/
+    text-align: center;
+    /*Addiing fancy script to headers, with a fall back to dyslexiia friendly default font if it fails*/
+    font-family: 'Seaweed Script', sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
     text-align: center;
 }
 
@@ -171,10 +183,15 @@ main {
     margin: 10px auto;
     padding: 15px;
 
-    h2 {
-        text-decoration: underline;
-        margin-bottom: 5px;
-    }
+    
+}
+
+.lunch h2,
+.starters h2,
+.mains h2,
+.desserts h2 {
+    text-decoration: underline;
+    margin-bottom: 5px;
 }
 
 .lunch-menu li,
