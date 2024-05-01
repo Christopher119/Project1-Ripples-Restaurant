@@ -43,7 +43,7 @@
     <!--MAIN CONTENT-->
     <main>
         <div>
-            <form id="booking-form" action="https://formdump.codeinstitute.net" method="POST" _blank>
+            <form id="booking-form" action="https://formdump.codeinstitute.net" method="POST">
                 <!--First Name label and input field-->
                 <label for="fname">First Name:</label>
                 <input type="text" id="fname" name="fname" required class="input-fields">
@@ -66,7 +66,7 @@
                 <br>
                 <!--Booking Date label and input field-->
                 <label for="dateOfBooking">Date:</label>
-                <input type="datetime-local" id="dateOfBooking" name="dateOfBooking" min="2019-5-01" required class="input-fields">
+                <input type="datetime-local" id="dateOfBooking" name="dateOfBooking" required class="input-fields">
                 <br>
                 <!--Submit and Reset buttons-->
                 <input type="submit" value="Make Booking" class="booking-buttons">
@@ -88,7 +88,9 @@
 
         <!--I-Frame used for map location-->
         <div class="location-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9122.733998178544!2d-7.6769149!3d55.1363171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ff3d971beca7b%3A0xd33ce62cbcbdbe5!2sRipples%20Restaurant!5e0!3m2!1sen!2sie!4v1713018331374!5m2!1sen!2sie" height="300" width="100%"></iframe>
+            <!--Inital sizing was not W3c valid, had to use inline styling-->
+            <!--Solution here: https://stackoverflow.com/questions/37159198/w3c-validation-error-with-image-width-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9122.733998178544!2d-7.6769149!3d55.1363171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ff3d971beca7b%3A0xd33ce62cbcbdbe5!2sRipples%20Restaurant!5e0!3m2!1sen!2sie!4v1713018331374!5m2!1sen!2sie" style="height: 300px; width: 100%;"></iframe>
         </div>
     </main>
 
@@ -99,12 +101,12 @@
         </p>
         <ul>
             <li>
-                <a href="https:www.facebook.com/" target="_blank" rel="noopener" aria-label="Our Facebook page. Opens in a new tab.">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Our Facebook page. Opens in a new tab.">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
             </li>
             <li>
-                <a href="https:www.instagram.com/" target="_blank" rel="noopener" aria-label="Our Instagram page. Opens in a new tab.">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Our Instagram page. Opens in a new tab.">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </li>

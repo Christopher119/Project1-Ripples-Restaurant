@@ -113,7 +113,7 @@ main {
     margin-top: 49px;
     /*using flex box properites to ensure main section grows to required space, doesn't shrink, and fills horizontal space*/
     display: flex;
-    flex: 1, 0, auto;
+    flex: 1 0 auto;
     /*pushing each flex item below the next by using columns*/
     flex-direction: column;
     background: url("../images/ripples-interior-view.webp") no-repeat center center/cover;

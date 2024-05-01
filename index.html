@@ -18,7 +18,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
-    </style>
 </head>
 <body>
 
@@ -65,9 +64,13 @@
                     detail necessary and our menus are specifically developed with the bride and grooms preference and budget in mind.
                 </p>
                 <br>
-                <a href="booking.html">
-                    <input type="button" class="booking-menu-button" value="Make a Booking!">
-                </a>
+                <!--Initially nested an input type button inside an a element-->
+                <!--Invalid on Wc3 validator-->
+                <!--Found using forms to be valid-->
+                <!--https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link-->
+                <form action="booking.html">
+                    <input type="submit" class="booking-menu-button" value="Make a Booking!">
+                </form>
             </div>
         </section>
         <!--Simple section with button for users to navigate to menu-->
@@ -83,9 +86,9 @@
                     and and specialty steaks, we offer a variety of options that are sure to satisfy your tastebuds.
                 </p>
                 <br>
-                <a href="menu.html">
-                    <input type="button" class="our-food-button" value="Check out our Menu!">
-                </a>
+                <form action="menu.html">
+                    <input type="submit" class="our-food-button" value="Check out our Menu!">
+                </form>
             </div>
         </section>
     </main>
@@ -97,12 +100,12 @@
         </p>
         <ul>
             <li>
-                <a href="https:www.facebook.com/" target="_blank" rel="noopener" aria-label="Our Facebook page. Opens in a new tab.">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Our Facebook page. Opens in a new tab.">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
             </li>
             <li>
-                <a href="https:www.instagram.com/" target="_blank" rel="noopener" aria-label="Our Instagram page. Opens in a new tab.">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Our Instagram page. Opens in a new tab.">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </li>
