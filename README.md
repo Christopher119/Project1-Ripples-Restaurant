@@ -2,12 +2,11 @@
 
 ---
 
+![Devices showiing the responsive nature of the site](assets/images/readmePics/amiresponsive.PNG)
+
 This website is for the Kerrykeel based restaurant called Ripple's Restaurant. Currently they only operate a Facebook and Instagram page. This site is targeted towards the owner of the business as a means to better promote themselves and to potential customers looking to learn more about the restauarant, what food and services they have on offer (such as perusing their menu) and how to contact and book with them.
 
 ## Strategy
-
-
-## Scope
 
     Users
         Users want to be able to find clear and concise information about the restaurant
@@ -23,6 +22,16 @@ This website is for the Kerrykeel based restaurant called Ripple's Restaurant. C
         The owners will want to show off the quality and presentation of their food
         The owners will want to attract more users
         The owners will want the promotion from good reviews
+
+## Scope
+
+    The site should be consistent and clean across all pages.
+    The site should include simple navigation that is consistent on all pages.
+    The site should include a description of the business.
+    The site should be bright and attractive.
+    The site should allow users to view a menu.
+    The site should allow users to book a reservation.
+    The site should include a map and locaton info.
 
 ## Structure
 
@@ -55,8 +64,24 @@ This website is for the Kerrykeel based restaurant called Ripple's Restaurant. C
 
 ## Skeleton
 
+Wireframe of the three main pages in a desktop view
+![A wireframe of the main page](assets/images/readmePics/index-wireframe.PNG)
+![A wireframe of the menu page](assets/images/readmePics/menu-wireframe.PNG)
+![A wireframe of the booking page](assets/images/readmePics/booking-wireframe.PNG)
+
+Wireframe of the menu page in a mobile view
+![A wireframe of the menu page on mobile](assets/images/readmePics/mobile-menu-wireframe.PNG)
+
+The design and flow of the website remains consistent and clean throughout all pages and devices. The only major change that is required is the positioning of image elements on the destop versus mobile view for a better user experience.
 
 ## Surface
+
+    Presentation:
+    I wanted everything on the site to be clear and bright.
+    I chose a lighter blue colour to hold the header and footer elements as it reflects the waterside location the restaurant enjoys.
+    I chose to mainly stick with black or white colours other than that for clear contrast for the visually impaired.
+    I chose to use a sans-serif font (Roboto Condensed) for visually impaired and dyslexic users.
+    I used a script font (Seaweed Script) to give the site a bit of visual flair in its text.
 
 
 ## Features
@@ -70,26 +95,26 @@ This website is for the Kerrykeel based restaurant called Ripple's Restaurant. C
     The Home  page
         The home page includes a simple title and tagline, a section to give users a quick intro to the restaurant and the services it provides, and a section to quicly describe the type of food served. Both of the latter sections include a button to quickly navigate to the corresponding page.
 
+![Preview of index.html](assets/images/readmePics/index-preview.PNG)
+
     The Menu page
         The menu page gives the users an example of the food that is available at Ripple's Restaurant.
         Most users who go to a site for a restaurant will want some idea of what is served there so I felt it vitally important to detail the various options on offer.
         Each section is clearly detailed by course as well as any additional options.
+
+![Preview of menu.html](assets/images/readmePics/menu-preview.PNG)
 
     Booking page
         This section will allow the user to use a form to book a reservation at the restaurant. It includes simple fields for names, number of people, times and dates, as well as email and phone numbers.
         For more complex bookings there is also the restaurants contact info included for users to reach out.
         In addition I have also included a iframe using the Google Maps API to show users the exact location of the restaurant.
 
-
-    The Footer
-        The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-        The footer is valuable to the user as it encourages them to keep connected via social media
+![Preview of booking.html](assets/images/readmePics/booking-preview.PNG)
 
 ## Footer
 
-    Footer
-        The footer quite simply contains the restaurants address, as well as icon links to the restaurants Facebook and Instagram profiles.
-        The footer remains at the bottom of each page and is consistent across all three.
+    The footer quite simply contains the restaurants address, as well as icon links to the restaurants Facebook and Instagram profiles.
+    The footer remains at the bottom of each page and is consistent across all three pages.
 
 
 ## Features Left to Implement
@@ -104,22 +129,38 @@ This website is for the Kerrykeel based restaurant called Ripple's Restaurant. C
 
 The website was built for mobile platforms first and was tested to ensure all pages and sections within worked as expected.
 Afterwards the site was tested for landscape phones, tablet screens, laptops, and desktops to understand how the site reacted and performed to shifting screen sizes.
+The site was checked against Google Chrome's Lighthouse tester to see how it scored.
+
+![Lighthouse score of index.html](assets/images/readmePics/index-lighthouse-performance.PNG)
+![Lighthouse score of menu.html](assets/images/readmePics/menu-lighthouse-performance.PNG)
+![Lighthouse score of booking.html](assets/images/readmePics/booking-lighthouse-performance.PNG)
+
+The background image of the site seems to slow the initial performance of the pages.
+The iframe for the google maps lowers the best practice score due to accessing Google's API.
 
 ## Validator Testing
 
     HTML
-        I have yet to validate the code as I am still in the process of perfecting the pages.
+        I have run all three html pages through the validator and have made all of them fully valid.
     CSS
-        I have yet to validate the code as I am still in the process of perfecting the pages.
+        I have run the css page through the validator and it is fully valid.
 
 ## Unfixed Bugs
 
-    Currently the pages do not properly fill the viewport height of the screen effectively, and attempts to make them do so break the flow of information presented.
-    Css Issues with regards to flexbox's row functionality for the "Menu" page depending on viewport width.
+    Currently no found bugs for all tested device sizes.
 
 ## Deployment
 
-The site has been deployed to GitHub pages.
+The site has been deployed to GitHub pages. In order to deploy the site:
+
+    I navigated to the Settings tab of the Repository
+    I navigated to the Pages menu.
+    In the Source dropdown options I selected main for the branch option.
+    I left the /root option as the default option.
+    I saved my changes.
+
+    GitHub deployed my website, it was live a few minutes later.
+
 
 The live link can be found here - https://christopher119.github.io/Project1-Ripples-Restaurant/
 
